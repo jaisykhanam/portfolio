@@ -1,0 +1,178 @@
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/34709e3b22.js" crossorigin="anonymous"></script>
+</head>
+<body>   
+   <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images 2025/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>jaisy khanam</span><br> From India</h1>
+            </div>
+        </div>
+   </div>
+ 
+     <div id="about"> 
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images 2025/work-3.avif"> 
+                </div>
+              <div class="about-col-2"> 
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm jaisy khanam, a passionate web development student eager to build creative, user-friendly and responsive websites. With a strong foundation in HTML, CSS, and modern frameworks.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                           <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                           <li><span>web development</span><br>Web app development</li>
+                           <li><span>app development</span><br>building android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span> </span><br> </li>
+                            <li><span> </span><br> </li>
+                            <li><span> </span><br> </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                           <li><span>2023</span><br>10+2 From sacred heart convent</li>
+                           <li><span>2023-2026</span><br>BCA from invertis university</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- ---------service--------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I create modern, responsive, and visually appealing website designs that provide a smoother user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                 <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2>
+                    <p>designing intuitive, user-focused, and visually engaging digital experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                 <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>visuall and intractive blueprints for mobile applications.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio-------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images 2025/img1.jpg"> 
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>THe app that connects you to the people around the world. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images 2025/img2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Create, organize, and share playlist with friends using our lightning-fast web player.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images 2025/img3.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Explore millions of products across every category, delivered right to your door.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div> 
+            <a href="#" class="btn">See more</a>   
+        </div>
+     </div>
+     <!-- --------------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>jaisykhanam@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8433107892</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright to @jaisy<i class="fa-solid fa-copyright"></i></p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+</html>
